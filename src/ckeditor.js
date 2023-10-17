@@ -7,7 +7,6 @@ import ClassicEditor from "@ckeditor/ckeditor5-editor-classic/src/classiceditor.
 import Autoformat from "@ckeditor/ckeditor5-autoformat/src/autoformat.js";
 import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold.js";
 import Essentials from "@ckeditor/ckeditor5-essentials/src/essentials.js";
-import Heading from "@ckeditor/ckeditor5-heading/src/heading.js";
 import Indent from "@ckeditor/ckeditor5-indent/src/indent.js";
 import Italic from "@ckeditor/ckeditor5-basic-styles/src/italic.js";
 import Link from "@ckeditor/ckeditor5-link/src/link.js";
@@ -26,7 +25,6 @@ Editor.builtinPlugins = [
   Autoformat,
   Bold,
   Essentials,
-  Heading,
   Indent,
   Italic,
   Link,
